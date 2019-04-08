@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Standard</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.core.min.js"></script>
+   </head>
+   <style>
+      body{
+      margin:0px;
+      padding:0px;
+      overflow:hidden;
+      background-color: black;
+      }
+      #baggrund {
+      display:block;
+      margin:auto;
+      height: 100vh;
+      }	
+      .rain {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-53%); 
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      top:0px;
+      }
+      .rain.back-row {
+      display: block;
+      z-index: 1;
+      bottom: 60px;
+      opacity: 0.5;
+      }
+      body.back-row-toggle .rain.back-row {
+      display: block;
+      }
+      .drop {
+      position: absolute;
+      bottom: 100%;
+      width: 15px;
+      height: 120px;
+      pointer-events: none;
+      animation: drop 1s linear infinite;
+      }
+      @keyframes drop {
+      0% {
+      transform: translateY(0vh);
+      }
+      75% {
+      transform: translateY(90vh);
+      }
+      100% {
+      transform: translateY(90vh);
+      }
+      }
+      .stem {
+      width: 1px;
+      height: 60%;
+      margin-left: 7px;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
+      animation: stem 1s linear infinite;
+      }
+      @keyframes stem {
+      0% {
+      opacity: 1;
+      }
+      65% {
+      opacity: 1;
+      }
+      75% {
+      opacity: 0;
+      }
+      100% {
+      opacity: 0;
+      }
+      }
+      .splat {
+      width: 15px;
+      height: 10px;
+      border-top: 2px dotted rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      opacity: 1;
+      transform: scale(0);
+      animation: splat 1s linear infinite;
+      display: none;
+      }
+      body.splat-toggle .splat {
+      display: block;
+      }
+      @keyframes splat {
+      0% {
+      opacity: 1;
+      transform: scale(0);
+      }
+      80% {
+      opacity: 1;
+      transform: scale(0);
+      }
+      90% {
+      opacity: 0.5;
+      transform: scale(1);
+      }
+      100% {
+      opacity: 0;
+      transform: scale(1.5);
+      }
+      }
+      .toggles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      }
+      .toggle {
+      position: absolute;
+      left: 20px;
+      width: 50px;
+      height: 50px;
+      line-height: 51px;
+      box-sizing: border-box;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      }
+      .toggle:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+      }
+      .toggle:active {
+      background-color: rgba(255, 255, 255, 0.3);
+      }
+      .toggle.active {
+      background-color: rgba(255, 255, 255, 0.4);
+      }
+      .splat-toggle {
+      top: 20px;
+      }
+      .back-row-toggle {
+      top: 90px;
+      line-height: 12px;
+      }
+      .single-toggle {
+      top: 160px;
+      }
+      body.single-toggle .drop {
+      display: none;
+      }
+      body.single-toggle .drop:nth-child(10) {
+      display: block;
+      }
+      #startKnap {
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translateX(-50%) translateY(-50%);
+      height:55vh;
+      z-index: 100;
+      border-radius: 100%;
+      transition: all 0.5s ease-in, top 5s;
+      }
+      #startKnap:hover {
+      cursor: pointer;
+      }
+      #infoKnap {
+      position: absolute;
+      bottom: 2vh;
+      height: 7vh;
+      z-index: 100;
+	  transition: all 0.5s ease-in;
+      }
+      #infoKnap:hover {
+      cursor: pointer;
+      }
+	   .parrentPanel{
+		   background-color: rgba(256,256,256,0.7);
+		   height: 90vh;
+		   width: 113vh;
+		   position: absolute;
+		   top:50%;
+		   left:50%;
+		   transform: translateX(-50%) translateY(-50%);
+		   z-index: 101;
+	   }
+	   .closeIcon {
+		   background-color: red;
+    -webkit-mask-image: url("img/system_icons/icon_x.svg");
+    mask-image: url("img/system_icons/icon_x.svg");
+		   position: absolute;
+		   height: 5.8vh;
+		   width: 6vh;
+		   top: -1vh;
+	   }
+   </style>
+   <body class="back-row-toggle splat-toggle" onResize="barSize();">
+	   <div style="display: inline-block;margin:auto;position: absolute;">
+      <img id="baggrund" src="img/backgrounds/background_landscape.jpg">
+      <div id="rain1" class="rain front-row"></div>
+      <div id="rain2" class="rain back-row"></div>
+      <img id="startKnap" onClick="alert('HEJ!!!');" src="img/system_icons/icon_welcome_play.svg">
+      <img onClick="parrrrrrrentScreen();" src="img/system_icons/icon_info-63.svg" id="infoKnap">
+		   <div class="parrentPanel"><div class="closeIcon"></div></div>
+	 </div>
+   </body>
+   <script>
+      var makeItRain = function() {
+       //clear out everything
+       $('.rain').empty();
+      
+       var increment = 0;
+       var drops = "";
+       var backDrops = "";
+      
+       while (increment < 100) {
+         //couple random numbers to use for various randomizations
+         //random number between 98 and 1
+         var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
+         //random number between 5 and 2
+         var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
+         //increment
+         increment += randoFiver;
+         //add in a new raindrop with various randomizations to certain CSS properties
+         drops += '<div class="drop" style="left: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
+         backDrops += '<div class="drop" style="right: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
+       }
+      
+       $('.rain.front-row').append(drops);
+       $('.rain.back-row').append(backDrops);
+      }
+      
+	  makeItRain();
+      	
+      	function barSize() {
+      document.getElementById("rain1").style.width = document.getElementById("baggrund").offsetWidth +"px";
+      document.getElementById("rain1").style.width = document.getElementById("baggrund").offsetWidth +"px";
+      		
+      				var testDiv = document.getElementById("baggrund");
+      	document.getElementById("infoKnap").style.left = testDiv.offsetLeft + "px";
+      }
+      document.onresize = function(){barSize();};
+      	barSize()
+      	
+      		function parrrrrrrentScreen() {
+				var testDiv = document.getElementById("baggrund");
+      			document.getElementById("infoKnap").style.left = testDiv.offsetLeft - document.getElementById("infoKnap").offsetWidth + "px";
+				
+				setTimeout(function(){ document.getElementById("startKnap").style.display = "none"; }, 1500);
+      			document.getElementById("startKnap").style.opacity = "0";
+
+      			console.log("FIRED");
+      }
+      
+   </script>
+</html>
