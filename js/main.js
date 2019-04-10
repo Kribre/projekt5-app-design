@@ -84,7 +84,9 @@ function parrrrrrrentScreen() {
     document.getElementById("startKnap").style.display = "none";
   }, 1500);
   document.getElementById("startKnap").style.opacity = "0";
-
+  document.getElementById("parrentScreen").style.removeProperty('display');
+   document.getElementById("parrentScreen").style.opacity = "1";
+   
   console.log("FIRED");
 }
 
