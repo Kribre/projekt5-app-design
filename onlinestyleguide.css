@@ -1,43 +1,51 @@
  .vertical-menu {
-  width: 200px; /* Set a width if you like */
-}
+     width: 200px;
+     /* Set a width if you like */
+ }
 
-.vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-}
+ .vertical-menu a {
+     background-color: #eee;
+     /* Grey background color */
+     color: black;
+     /* Black text color */
+     display: block;
+     /* Make the links appear below each other */
+     padding: 12px;
+     /* Add some padding */
+     text-decoration: none;
+     /* Remove underline from links */
+ }
 
-.vertical-menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
-}
+ .vertical-menu a:hover {
+     background-color: #ccc;
+     /* Dark grey background on mouse-over */
+ }
 
-.vertical-menu a.active {
-  background-color: #204887; /* Add a blue color to the "active/current" link */
-  color: white;
-}
+ .vertical-menu a.active {
+     background-color: #204887;
+     /* Add a blue color to the "active/current" link */
+     color: white;
+ }
 
-.sidebar {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #f1f1f1;
-  overflow-x: hidden;
-    font-size: 1.2em;
-font-variant-caps: all-small-caps;
-    font-family: 'Roboto', sans-serif;
-}
+ .sidebar {
+     height: 100%;
+     width: 200px;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #f1f1f1;
+     overflow-x: hidden;
+     font-size: 1.2em;
+     font-variant-caps: all-small-caps;
+     font-family: 'Roboto', sans-serif;
+ }
 
-.main {
-    position: absolute;
-    left: 15em;
-    border: 1px solid grey;
-    margin-right: 2em;
-    padding: .8em;
-    line-height: 1.5;
-}
+ .main {
+     position: absolute;
+     left: 15em;
+     border: 1px solid grey;
+     margin-right: 2em;
+     padding: .8em;
+     line-height: 1.5;
+ }
