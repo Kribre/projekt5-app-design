@@ -195,6 +195,12 @@ body.single-toggle .drop:nth-child(10) {
   top: -1vh;
 }
 
+.tilbageknap {
+    position: absolute;
+    top: 2px;
+    z-index: 102;
+}
+
 /********* Template page.html *********/
 
 body {
