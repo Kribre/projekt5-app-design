@@ -1,51 +1,114 @@
- .vertical-menu {
-     width: 200px;
-     /* Set a width if you like */
- }
+/* html {
+  scroll-behavior: smooth;
+} */
 
- .vertical-menu a {
-     background-color: #eee;
-     /* Grey background color */
-     color: black;
-     /* Black text color */
-     display: block;
-     /* Make the links appear below each other */
-     padding: 12px;
-     /* Add some padding */
-     text-decoration: none;
-     /* Remove underline from links */
- }
+div h2 {
+  font-family: Roboto;
+  font-size: 25px;
+}
+.section1 {
+  height: 1500px;
+  background-color: #204887;
+}
 
- .vertical-menu a:hover {
-     background-color: #ccc;
-     /* Dark grey background on mouse-over */
- }
+.vertical-menu {
+  width: 200px;
+  /* Set a width if you like */
+}
 
- .vertical-menu a.active {
-     background-color: #204887;
-     /* Add a blue color to the "active/current" link */
-     color: white;
- }
+.vertical-menu a {
+  background-color: #eee;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline from links */
+}
 
- .sidebar {
-     height: 100%;
-     width: 200px;
-     position: fixed;
-     z-index: 1;
-     top: 0;
-     left: 0;
-     background-color: #f1f1f1;
-     overflow-x: hidden;
-     font-size: 1.2em;
-     font-variant-caps: all-small-caps;
-     font-family: 'Roboto', sans-serif;
- }
+.vertical-menu a:hover {
+  background-color: #ccc;
+  /* Dark grey background on mouse-over */
+}
 
- .main {
-     position: absolute;
-     left: 15em;
-     border: 1px solid grey;
-     margin-right: 2em;
-     padding: .8em;
-     line-height: 1.5;
- }
+.vertical-menu a.active {
+  background-color: #204887;
+  /* Add a blue color to the "active/current" link */
+  color: white;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  font-size: 1.2em;
+  font-variant-caps: all-small-caps;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  position: absolute;
+  left: 15em;
+  border: 1px solid grey;
+  margin-right: 2em;
+  padding: 0.8em;
+  line-height: 1.5;
+}
+
+/************ FARVER ************/
+
+.farver {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.red {
+  background-color: red;
+  padding: 50px;
+  height: 100px;
+  width: 55%;
+}
+
+.black {
+  background-color: black;
+  padding: 50px;
+  height: 100px;
+  width: 55%;
+}
+
+.green {
+  background-color: green;
+  padding: 50px;
+  height: 100px;
+  width: 55%;
+}
+
+.yellow {
+  background-color: yellow;
+  padding: 50px;
+  height: 100px;
+  width: 55%;
+}
+
+.purple {
+  background-color: purple;
+  padding: 50px;
+  height: 100px;
+  width: 55%;
+}
+
+.blue {
+  background-color: blue;
+  padding: 50px;
+  height: 100px;
+  width: 55%;
+}
