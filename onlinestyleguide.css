@@ -63,52 +63,135 @@ div h2 {
   line-height: 1.5;
 }
 
-/************ FARVER ************/
+/************ FARVER SEKTION ************/
+
+.farvetitle {
+  background-color: #204887;
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 .farver {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #204887;
 }
 
-.red {
-  background-color: red;
-  padding: 50px;
-  height: 100px;
-  width: 55%;
+.dullred {
+  background-color: #8f352a;
+  padding: 40px;
+  width: 1%;
 }
 
-.black {
-  background-color: black;
-  padding: 50px;
-  height: 100px;
-  width: 55%;
-}
-
-.green {
-  background-color: green;
-  padding: 50px;
-  height: 100px;
-  width: 55%;
+.lightgrayish {
+  background-color: #e1d4cd;
+  padding: 40px;
+  width: 1%;
 }
 
 .yellow {
-  background-color: yellow;
-  padding: 50px;
-  height: 100px;
-  width: 55%;
+  background-color: #fee238;
+  padding: 40px;
+  width: 1%;
 }
 
-.purple {
-  background-color: purple;
-  padding: 50px;
-  height: 100px;
-  width: 55%;
+.cyan {
+  background-color: #d3584a;
+  padding: 40px;
+  width: 1%;
 }
 
-.blue {
-  background-color: blue;
-  padding: 50px;
-  height: 100px;
-  width: 55%;
+.darkgrayish {
+  background-color: #8c9973;
+  padding: 40px;
+  width: 1%;
+}
+
+.darkblue {
+  background-color: #426178;
+  padding: 40px;
+  width: 1%;
+}
+
+.ochre {
+  background-color: #cc722d;
+  padding: 40px;
+  width: 1%;
+}
+
+.pink {
+  background-color: #db83a5;
+  padding: 40px;
+  width: 1%;
+}
+
+.strongcyan {
+  background-color: #bc3018;
+  padding: 40px;
+  width: 1%;
+}
+
+.farver h3 {
+  color: #fafaff;
+}
+
+.farver p {
+  color: #afb9c5;
+}
+
+/***************** IKONER SEKTION **************/
+
+.ikonertitle {
+  background-color: #204887;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.ikonertitle p {
+  margin-top: -10px;
+}
+
+.sektionikoner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  background-color: #204887;
+}
+
+.ikoner img {
+  width: 50%;
+}
+
+/*************** TYPOGRAFI SEKTION*****************/
+
+.typotitle {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #204887;
+  font-family: Roboto;
+}
+
+.sectiontypo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #204887;
+  font-family: Roboto;
+}
+
+.typografi {
+  font-family: Roboto;
+}
+
+.typografi h2 {
+  font-family: Roboto;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.typografi p {
+  font-size: 20px;
+  margin-top: -30px;
 }
