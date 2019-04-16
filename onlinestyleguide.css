@@ -71,11 +71,19 @@ div h2 {
   grid-template-columns: 1fr;
 }
 
+.farvetitle h2 {
+  margin: 0 0 0 20px;
+}
+
 .farver {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   background-color: #204887;
+}
+
+.box {
+  padding: 0 0 0 20px;
 }
 
 .dullred {
@@ -148,19 +156,24 @@ div h2 {
   grid-template-columns: 1fr;
 }
 
+.ikonertitle h2 {
+  margin: 0 0 10px 20px;
+}
+
 .ikonertitle p {
-  margin-top: -10px;
+  margin: 0 0 10px 20px;
 }
 
 .sektionikoner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 20px;
   background-color: #204887;
 }
 
 .ikoner img {
-  width: 50%;
+  width: 40%;
+  margin: 20px 0 0 20px;
 }
 
 /*************** TYPOGRAFI SEKTION*****************/
@@ -168,16 +181,21 @@ div h2 {
 .typotitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #204887;
   font-family: Roboto;
+  background-color: #204887;
+}
+
+.typotitle h2 {
+  margin: 0 0 0 20px;
 }
 
 .sectiontypo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  background-color: #204887;
+  background-color: white;
   font-family: Roboto;
+  background-color: #204887;
 }
 
 .typografi {
@@ -188,10 +206,65 @@ div h2 {
   font-family: Roboto;
   font-size: 100px;
   padding: 0px;
-  margin: 0px;
+  margin: 0 0 0 20px;
 }
 
 .typografi p {
   font-size: 20px;
-  margin-top: -30px;
+  margin: -30px 0 0 20px;
+}
+
+.typografitekst h2 {
+  font-size: 20px;
+  color: grey;
+}
+
+.typografitekst h3 {
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+.typografitekst p {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+/*************** SPROG SEKTION ****************/
+
+.tostitle {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #204887;
+  font-family: Roboto;
+}
+
+.sectiontos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #204887;
+  font-family: Roboto;
+  height: 1000px;
+}
+
+/*************** FIGUR SEKTION ****************/
+
+.figurtitle {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #204887;
+  font-family: Roboto;
+}
+
+.figursektion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #204887;
+  font-family: Roboto;
+}
+
+.figursektion img {
+  width: 100%;
+  margin-left: 0px;
 }
