@@ -69,27 +69,45 @@ div h2 {
   background-color: #003230;
   display: grid;
   grid-template-columns: 1fr;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 100;
 }
 
 .farvetitle h2 {
-  margin: 0 0 20px 20px;
-  color: #fafaff;
-  font-weight: 500;
+  margin: 3% 0 2% 9%;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.farveundertitle {
+  background-color: #003230;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.farveundertitle p {
+  margin: 0 0 10px 18%;
+  width: 50%;
+  color: #ffffff;
+}
+
+.farveundertitle img {
+  width: 50%;
+  margin: -5% 0 20% 18%;
 }
 
 .farver {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #003230;
+  background-color: #DAEBFF;
   font-family: sans-serif;
 }
 
 .box {
   padding: 0 0 0 20px;
+  margin: 12% 0 10% 30%;
+
 }
 
 .dullred {
@@ -147,14 +165,15 @@ div h2 {
 }
 
 .farver h3 {
-  color: #fafaff;
+  color: #0c0c0c;
   font-weight: 500;
 }
 
 .farver p {
-  color: #afb9c5;
+  color: #0c0c0c;
   font-weight: 100;
   font-family: sans-serif;
+
 }
 
 /***************** IKONER SEKTION **************/
@@ -166,7 +185,7 @@ div h2 {
 }
 
 .ikonertitle h2 {
-  margin: 0 0 10px 40px;
+  margin: 0 0 10px 9%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -180,14 +199,14 @@ div h2 {
 }
 
 .ikonerundertitle p {
-  margin: 0 0 10px 40px;
+  margin: 0 0 10px 18%;
   width: 50%;
   color: #ffffff;
 }
 
 .ikonerundertitle img {
     width: 50%;
-    margin: -60px 0 100px 80px;
+    margin: -10% 0 20% 20%;
   }
 }
 
@@ -202,16 +221,17 @@ div h2 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #EBF4FF;
+  margin: 0 0 0 0;
 }
 
 .sektionikoner p {
-  margin: 0 0 10px 30px;
+  margin: 0 0 0 30%;
   padding-top: 15px;
 }
 
 .ikoner img {
   width: 20%;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 30%;
 }
 
 /*************** TYPOGRAFI SEKTION*****************/
@@ -317,6 +337,5 @@ div h2 {
 
 .figursektion img {
   width: 80%;
-  margin: 20px 0 0 20px;
-  border: 2px solid black;
+  margin: 20px 0 0 20%;
 }
