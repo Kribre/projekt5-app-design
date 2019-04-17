@@ -66,20 +66,26 @@ div h2 {
 /************ FARVER SEKTION ************/
 
 .farvetitle {
-  background-color: #204887;
+  background-color: #003230;
   display: grid;
   grid-template-columns: 1fr;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 .farvetitle h2 {
-  margin: 0 0 0 20px;
+  margin: 0 0 20px 20px;
+  color: #fafaff;
+  font-weight: 500;
 }
 
 .farver {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #204887;
+  background-color: #003230;
+  font-family: sans-serif;
 }
 
 .box {
@@ -89,63 +95,66 @@ div h2 {
 .dullred {
   background-color: #8f352a;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .lightgrayish {
   background-color: #e1d4cd;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .yellow {
   background-color: #fee238;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .cyan {
   background-color: #d3584a;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .darkgrayish {
   background-color: #8c9973;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .darkblue {
   background-color: #426178;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .ochre {
   background-color: #cc722d;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .pink {
   background-color: #db83a5;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .strongcyan {
   background-color: #bc3018;
   padding: 40px;
-  width: 1%;
+  width: 20%;
 }
 
 .farver h3 {
   color: #fafaff;
+  font-weight: 500;
 }
 
 .farver p {
   color: #afb9c5;
+  font-weight: 100;
+  font-family: sans-serif;
 }
 
 /***************** IKONER SEKTION **************/
@@ -157,22 +166,51 @@ div h2 {
 }
 
 .ikonertitle h2 {
-  margin: 0 0 10px 20px;
+  margin: 0 0 10px 40px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: sans-serif;
 }
 
-.ikonertitle p {
-  margin: 0 0 10px 20px;
+.ikonerundertitle {
+  background-color: #204887;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ikonerundertitle p {
+  margin: 0 0 10px 40px;
+  width: 50%;
+  color: #ffffff;
+}
+
+.ikonerundertitle img {
+    width: 50%;
+    margin: -60px 0 100px 80px;
+  }
+}
+
+.ikonerundertitle p {
+  margin: 0 0 10px 40px;
+  width: 300px;
+  font-size: 12px;
 }
 
 .sektionikoner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  background-color: #204887;
+  background-color: #EBF4FF;
+}
+
+.sektionikoner p {
+  margin: 0 0 10px 30px;
+  padding-top: 15px;
 }
 
 .ikoner img {
-  width: 40%;
+  width: 20%;
   margin: 20px 0 0 20px;
 }
 
@@ -227,6 +265,7 @@ div h2 {
 .typografitekst p {
   font-size: 20px;
   margin-top: -10px;
+  width: 200px;
 }
 
 /*************** SPROG SEKTION ****************/
@@ -256,6 +295,10 @@ div h2 {
   font-family: Roboto;
 }
 
+.figurtitle h2 {
+  margin: 0 0 0 20px;
+}
+
 .figursektion {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -264,7 +307,16 @@ div h2 {
   font-family: Roboto;
 }
 
+.figur h3 {
+  margin: 0 0 0 20px;
+}
+
+.figur p {
+  margin: 0 0 0 20px;
+}
+
 .figursektion img {
-  width: 100%;
-  margin-left: 0px;
+  width: 80%;
+  margin: 20px 0 0 20px;
+  border: 2px solid black;
 }
