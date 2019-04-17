@@ -23,26 +23,29 @@ var makeItRain = function() {
        $('.rain.back-row').append(backDrops);
       }
       
-	  makeItRain();
-      	
-      	function barSize() {
+      makeItRain();
+          
+          function barSize() {
       document.getElementById("rain1").style.width = document.getElementById("baggrund").offsetWidth +"px";
       document.getElementById("rain1").style.width = document.getElementById("baggrund").offsetWidth +"px";
-      		
-      				var testDiv = document.getElementById("baggrund");
-      	document.getElementById("infoKnap").style.left = testDiv.offsetLeft + "px";
+              
+                      var testDiv = document.getElementById("baggrund");
+          document.getElementById("infoKnap").style.left = testDiv.offsetLeft + "px";
       }
       document.onresize = function(){barSize();};
-      	barSize()
-      	
-      		function parrrrrrrentScreen() {
-				var testDiv = document.getElementById("baggrund");
-      			document.getElementById("infoKnap").style.left = testDiv.offsetLeft - document.getElementById("infoKnap").offsetWidth + "px";
-				
-				setTimeout(function(){ document.getElementById("startKnap").style.display = "none"; }, 1500);
-      			document.getElementById("startKnap").style.opacity = "0";
-				  document.getElementById("parrentScreen").style.removeProperty('display');
-				setTimeout(function(){document.getElementById("parrentScreen").style.opacity = "1";},100);
-       			console.log("FIRED");
+          barSize()
+      function parrrrrrrentScreen() {
+                var testDiv = document.getElementById("baggrund");
+                  document.getElementById("infoKnap").style.left = testDiv.offsetLeft - document.getElementById("infoKnap").offsetWidth + "px";
+                
+                  setTimeout(function(){ document.getElementById("startKnap").style.display = "none"; }, 1500);
+                  document.getElementById("startKnap").style.opacity = "0";
+                  document.getElementById("parrentScreen").style.removeProperty('display');
+                  setTimeout(function(){document.getElementById("parrentScreen").style.opacity = "1";},100);
+      }
+
+	  function showParentOnlyZone() {
+		  		  document.getElementById("parrentScreen").style.opacity = "0";
+                  setTimeout(function(){document.getElementById("parrentScreen").style.display="none";},2000);
       }
       

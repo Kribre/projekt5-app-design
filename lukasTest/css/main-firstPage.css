@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-	   @import url('https://fonts.googleapis.com/css?family=Roboto');
+	    @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+		@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
       body{
       margin:0px;
       padding:0px;
@@ -279,3 +280,67 @@
       .empty {
       	color:lightblue;
       }
+	 .inputCorrect{
+      	background-color:green !important;
+        color:green !important;
+      }
+.parrentOnlySection {
+	width: 80%;
+	height: 80%;
+	background:rgba(255,255,255,0.9);
+	position: absolute;
+	top:10vh;
+	left:10%;
+	z-index: 105;
+	
+}
+.parrentOnlySection .content {
+	box-sizing: border-box;
+	padding:7vh;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	
+}
+
+.closeButton {
+	height: 6vh;
+	width: 6vh;
+	position: absolute;
+	top:2.5vh;
+	right:2.5vh;
+}
+.parrentTopicArea {
+	margin-top:5vh;
+	box-sizing: border-box;
+	background-color: white;
+	height: 8vh;
+	width: 29%;
+	border: 1px solid black;
+	display: inline-block;
+	transition: all 1s ease-in-out;
+}
+.parrentTopicArea:not(:last-child) { margin-right: 5%; }
+.active{
+	background-color: grey !important;
+	font-weight: 700 !important;
+	border: 1px solid grey;
+}
+.parrentTopicAreaText {
+	font-size:3.5vh;
+    text-align: center;
+	vertical-align: middle;
+    line-height: 8vh;
+}
+.parrentTopicArea:hover {
+	cursor: pointer;
+}
+.topicContent {
+	text-align: left;
+	font-size:2.5vh;
+	line-height: 2.5vh;
+	display:block;
+	backround-color:red;
+	height: 100%;
+	width: 100%;
+	font-weight: 500;
+}
