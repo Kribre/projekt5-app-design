@@ -266,7 +266,9 @@ div h2 {
 }
 
 .sektionikoner p {
-  margin: 0 0 0 29%;
+  display: grid;
+  justify-items: center;
+  margin: 0 0 0 -22%;
   padding-top: 10px;
 }
 
@@ -462,9 +464,10 @@ div h2 {
   font-size: 14px;
   margin: 0 0 10px 19%;
   width: 50%;
+  align-content: center;
 }
 
 .figursektion img {
-  width: 80%;
-  margin: 20px 0 0 28%;
+  width: 100%;
+  margin: 20px 0 0 10%;
 }
