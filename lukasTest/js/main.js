@@ -34,18 +34,4 @@ var makeItRain = function() {
       }
       document.onresize = function(){barSize();};
           barSize()
-      function parrrrrrrentScreen() {
-                var testDiv = document.getElementById("baggrund");
-                  document.getElementById("infoKnap").style.left = testDiv.offsetLeft - document.getElementById("infoKnap").offsetWidth + "px";
-                
-                  setTimeout(function(){ document.getElementById("startKnap").style.display = "none"; }, 1500);
-                  document.getElementById("startKnap").style.opacity = "0";
-                  document.getElementById("parrentScreen").style.removeProperty('display');
-                  setTimeout(function(){document.getElementById("parrentScreen").style.opacity = "1";},100);
-      }
-
-	  function showParentOnlyZone() {
-		  		  document.getElementById("parrentScreen").style.opacity = "0";
-                  setTimeout(function(){document.getElementById("parrentScreen").style.display="none";},2000);
-      }
       

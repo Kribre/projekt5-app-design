@@ -183,5 +183,64 @@
   }
 
   numbers.forEach(pushLettersTilArray)
-  console.log(text);
   document.getElementById("kode").innerHTML = text.join(', ');
+
+	  function parrrrrrrentScreen() {
+                var testDiv = document.getElementById("baggrund");
+                  document.getElementById("infoKnap").style.left = testDiv.offsetLeft - document.getElementById("infoKnap").offsetWidth + "px";
+                
+                  setTimeout(function(){ document.getElementById("startKnap").style.display = "none"; }, 1500);
+                  document.getElementById("startKnap").style.opacity = "0";
+                  document.getElementById("parrentScreen").style.removeProperty('display');
+                  setTimeout(function(){document.getElementById("parrentScreen").style.opacity = "1";},100);
+      }
+
+	  function showParentOnlyZone() {
+		  		  document.getElementById("parrentScreen").style.opacity = "0";
+                  setTimeout(function(){document.getElementById("parrentScreen").style.display="none";},2000);
+		  		  document.getElementById("parrentSectionOnly").style.removeProperty('display');
+		  		  setTimeout(function(){document.getElementById("parrentSectionOnly").style.opacity = "1";},100);
+		  
+		  
+      }
+		  function exitParrentZone() {
+                  document.getElementById("infoKnap").style.left = "0px";
+                  setTimeout(function(){ document.getElementById("parrentSectionOnly").style.display = "none"; }, 1500);
+                  document.getElementById("parrentSectionOnly").style.opacity = "0";
+                  document.getElementById("startKnap").style.removeProperty('display');
+                  setTimeout(function(){document.getElementById("startKnap").style.opacity = "1";},100);
+			   document.getElementById("parrentScreen").style.opacity = "0";
+                  setTimeout(function(){document.getElementById("parrentScreen").style.display="none";},2000);
+		  document.getElementById("input1").classList.remove("inputCorrect");
+          document.getElementById("input2").classList.remove("inputCorrect");
+          document.getElementById("input3").classList.remove("inputCorrect");
+          document.getElementById("input4").classList.remove("inputCorrect");
+
+          document.getElementById("statusFelt").innerHTML = "Skriv koden:";
+			  
+			  
+      }
+	function navigationParrentZone(x) {
+		document.getElementById("parrentTopic1").classList.remove("active");
+		document.getElementById("parrentTopic2").classList.remove("active");
+		document.getElementById("parrentTopic3").classList.remove("active");
+		
+		document.getElementById("topicContent1").style.display = "none";
+		document.getElementById("topicContent2").style.display = "none";
+		
+		
+			switch (x) {
+          case 1:
+              document.getElementById("parrentTopic1").classList.add("active");
+			  document.getElementById("topicContent1").style.removeProperty('display');
+              break;
+          case 2:
+              document.getElementById("parrentTopic2").classList.add("active");
+			  document.getElementById("topicContent2").style.removeProperty('display');
+              break;
+          case 3:
+			  document.getElementById("parrentTopic3").classList.add("active");
+			  alert("not made yet");
+              break;
+		}
+	}
