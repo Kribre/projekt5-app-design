@@ -2,109 +2,53 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Standard</title>
+      <title>gamePage</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.core.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/main-firstPage.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+	  <link rel="stylesheet" type="text/css" href="css/gamePage.css">
    </head>
    <body class="back-row-toggle splat-toggle" onResize="barSize();">
       <div style="display: inline-block;margin:auto;position: absolute;">
          <img id="baggrund" src="img/backgrounds/background_landscape.jpg">
          <div id="rain1" class="rain front-row"></div>
          <div id="rain2" class="rain back-row"></div>
-         <img id="startKnap" onClick="alert('HEJ!!!');" src="img/system_icons/icon_welcome_play.svg">
-         <img onClick="parrrrrrrentScreen();" src="img/system_icons/icon_info-63.svg" id="infoKnap">
-         <div id="parrentScreen" class="parrentPanel" style="transition: all 2s;display:none;opacity: 0;">
-			 <img src="img/system_icons/icon_x_red-35.svg" class="closeButton" onClick="exitParrentZone()">
-            <div style="text-align: center;">
-               <div style="display:block;">
-                  <h2 id="statusFelt">Skriv koden:</h2>
-                  <h1 id="kode"></h1>
-               </div>
-               <br><br>
-               <div class="inputs" id="theInputs">
-                  <a id="input1" class="input">1</a>
-                  <a id="input2" class="input">1</a>
-                  <a id="input3" class="input">1</a>
-                  <a id="input4" class="input">1</a>
-               </div>
-            </div>
-            <br><br>
-            <div class="buttons">
-               <div class="button" onClick="input(1);">1</div>
-               <div class="button" onClick="input(2);">2</div>
-               <div class="button" onClick="input(3);">3</div>
-               <div class="button" onClick="input(4);">4</div>
-               <div class="button" onClick="input(5);">5</div>
-               <div class="button" onClick="input(6);">6</div>
-               <div class="button" onClick="input(7);">7</div>
-               <div class="button" onClick="input(8);">8</div>
-               <div class="button" onClick="input(9);">9</div>
-               <div class="button" onClick="deleteOneArray()">&larr;</div>
-            </div>
-         </div>
-         <div class="parrentOnlySection" id="parrentSectionOnly" style="display:none;opacity: 0;">
-            <img src="img/system_icons/icon_x_red-35.svg" class="closeButton" onClick="exitParrentZone()">
-            <div class="content">
-               <div>
-                  <div class="parrentTopicArea active" id="parrentTopic1" onClick="navigationParrentZone(1);">
-                     <a class="parrentTopicAreaText"> Om </a>
-                  </div>
-                  <div class="parrentTopicArea" id="parrentTopic2" onClick="navigationParrentZone(2)">
-                     <a class="parrentTopicAreaText"> Kontakt </a>
-                  </div>
-                  <div class="parrentTopicArea" id="parrentTopic3" onClick="navigationParrentZone(3)">
-                     <a class="parrentTopicAreaText"> Indstillinger </a>
-                  </div>
-               </div>
-               <hr style="border-top: 2px solid grey;margin-top: -0.09vh;z-index: 108;">
-               <div class="topicContent" id="topicContent1">
-                  <p>Vi ønsker at gøre hverdagen en smule lettere sammen med dit barn.<br>
-                     Derfor har vi designet en app, som kombinerer leg med læring,<br>
-                     hvor målet er at mindske det stress og jag, I måske oplever om morgenen.<br>
-                     <br>
-                     De fleste konflikter starter, fordi barnet bliver frustreret i overgangssituationer.<br>
-                     Det er oftest om morgenen, når man skal have tøj på, og alle har travlt.<br>
-                     <br>
-                     Vores løsning er en vejrapp, som kan bruges på to måder:<br>
-                     <br><br>
-                     1) At lære barnet om vejret og dens betydning for påklædning med leg.<br>
-                     2) At strukturere hverdagen, hvor man kan forberede barnet på faste
-                     morgenrutiner. Bruger I opgavekalenderen om aftenen og
-                     gennemgå opgaverne om morgenen, kan barnet bedre håndtere overgangene.
-                     <br><br>
-                     Det er vores ønske, at I kan komme konflikterne i forkøbet og tilbringe
-                     kvalitetstid med børnene om aftenen og give alle en roligere start
-                     på morgenen.
-                  </p>
-               </div>
-               <div class="topicContent" id="topicContent2" style="display: none;">
-                  <p>Du er velkommen at kontakte os, hvis du har spørgsmål eller
-                     oplever problemer med appen. Brug formularen herunder, eller send en mail
-                     på <a href="mailto:storm@abtion.dk" target="_blank">storm@abtion.dk</a>
-                  </p>
-                  <hr>
-                  <div class="inputBoxParrent">
-                     <form action="/action_page.php">
-                        <label for="email">Din Email</label>
-                        <input type="email" id="email" name="email" placeholder="Din email..." required>
-                        <label for="Besked">Din Besked</label>
-                        <textarea rows="5" type="text" id="message" name="message" placeholder="Din Besked" required> </textarea>
-                        <input type="submit" value="Send Besked">
-                     </form>
-                  </div>
-                  <div class="parrentDeveloperBox">
-                     <h2>Udviklerteam:</h2>
-                     <h3>Jenny Johannessen</h3>
-                     <h3>Kristine Breum</h3>
-                     <h3>Lukas Wiinholt</h3>
-                     <h3>Thinh Tran</h3>
-                  </div>
-               </div>
-            </div>
-         </div>
+		  	<div>
+	<img id="drop-panel" src="img/dressinggame/fox-character/fox_0.png" class="charPlacement">
+	<img id="hueIMG" src="img/dressinggame/fox-character/fox_clothes_5.png" class="charPlacement" style="opacity:0;">
+	<img id="bukserIMG" src="img/dressinggame/fox-character/fox_clothes_1.png" class="charPlacement" style="opacity:0;">
+	<img id="jakkeIMG" src="img/dressinggame/fox-character/fox_clothes_2.png" class="charPlacement" style="opacity:0;">
+	<img id="bootsIMG" src="img/dressinggame/fox-character/fox_clothes_4.png" class="charPlacement" style="opacity:0;">
+	<div id="clone-container" style="">
+      <div id="scroll-box">
+        <div id="tile-container">
+
+          <div class="tile-wrapper">
+            <div class="tile" id="jakke"><img src="img/JakkeKnap.png" style="height:20vh;"></div>
+          </div>
+          <div class="tile-wrapper">
+            <div class="tile" id="hue"><img src="img/hueKnap.png" style="height:20vh;"></div>
+          </div>
+          <div class="tile-wrapper">
+            <div class="tile" id="stoevler"><img src="img/bootsKnap.png" style="height:20vh;"></div>
+          </div>
+          <div class="tile-wrapper">
+            <div class="tile" id="bukser"><img src="img/bukserKnap.png" style="height:20vh;"></div>
+          </div>
+		  
+		  
+		  
+
+        </div>
+      </div>
+    </div>
+	
+	</div>
       </div>
    </body>
+	  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js'></script>
    <script src="js/main.js"></script>
-   <script src="js/parentLock.js"></script>
+   <script src="js/gamePage.js"></script>
 </html>

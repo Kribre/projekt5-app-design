@@ -24,14 +24,4 @@ var makeItRain = function() {
       }
       
       makeItRain();
-          
-          function barSize() {
-      document.getElementById("rain1").style.width = document.getElementById("baggrund").offsetWidth +"px";
-      document.getElementById("rain1").style.width = document.getElementById("baggrund").offsetWidth +"px";
-              
-                      var testDiv = document.getElementById("baggrund");
-          document.getElementById("infoKnap").style.left = testDiv.offsetLeft + "px";
-      }
-      document.onresize = function(){barSize();};
-          barSize()
       

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+#top-bar {
+  margin: 10px;
+  padding: 10px;
+background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  min-height: 119px;
+}
+
+#drop-panel header {
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+#scroll-box {
+  text-align: center;
+  display:block;
+	margin-left: auto;
+	margin-right: auto;
+-ms-transform: translate(0%,-100% );transform: translate(0%,-100%);
+  overflow-x: scroll;
+	z-index: 1000;
+	position:absolute;
+	
+}
+
+#tile-container {
+  display: inline-flex;
+}
+.charPlacement {
+	height:50vh;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.tile-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding:15px;
+}
+
+.tile {
+  
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  cursor: move;
+  
+  overflow: hidden;
+}
+.tile.clone {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.tile.dropped {
+  background: cornflowerblue;
+  opacity:0 !important;
+  display:none;
+}
