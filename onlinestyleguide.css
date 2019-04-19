@@ -119,6 +119,7 @@ body {
   grid-gap: 10px;
   background-color: #daebff;
   font-family: sans-serif;
+  margin-bottom: 10%;
 }
 
 .box {
@@ -227,6 +228,7 @@ body {
 .sektionbaggrund {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 10%;
 }
 
 .baggrund1 {
@@ -280,6 +282,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #ebf4ff;
+  margin-bottom: 10%;
 }
 
 .sektionikoner p {
@@ -334,6 +337,7 @@ body {
   grid-gap: 10px;
   background-color: #daebff;
   font-family: Roboto;
+  margin-bottom: 10%;
 }
 
 .typografi {
@@ -431,9 +435,22 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+.sektiontitlebelønning {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: #daebff;
+  font-family: Roboto;
+}
+
+.sektiontitlebelønning h2 {
+  margin: 5% 0 10px 9%;
+  font-weight: 100;
+}
+
 .sektionbelønning {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
   font-family: Roboto;
@@ -441,19 +458,33 @@ body {
 
 .sektionbelønning img {
   width: 50%;
-  margin: 20px 0 0 17%;
+  margin: 20px 0 5% 25%;
 }
 
-.belønninglås {
+.belønninglåstitle {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
   background-color: #66c2ac;
   font-family: Roboto;
 }
 
+.belønninglåstitle h2 {
+  margin: 5% 0 10px 9%;
+  font-weight: 100;
+}
+
+.belønninglås {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #66c2ac;
+  font-family: Roboto;
+  margin-bottom: 10%;
+}
+
 .belønninglås img {
   width: 40%;
-  margin: 20px 0 0 17%;
+  margin: 20px 0 0 37%;
 }
 
 /*************** TONE OF VOICE SEKTION *************/
@@ -497,6 +528,7 @@ body {
   grid-gap: 20px;
   background-color: #daebff;
   font-family: Roboto;
+  margin-bottom: 10%;
 }
 
 .sectiontos p {
@@ -510,7 +542,7 @@ body {
 .figurtitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #204887;
+  background-color: #003230;
   font-family: Roboto;
 }
 
@@ -524,7 +556,7 @@ body {
 }
 
 .figurundertitle {
-  background-color: #204887;
+  background-color: #003230;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -546,6 +578,7 @@ body {
   grid-gap: 20px;
   background-color: #daebff;
   font-family: Roboto;
+  margin-bottom: 10%;
 }
 
 .figur {
