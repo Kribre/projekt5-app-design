@@ -63,7 +63,7 @@ body {
   background-color: #44505f;
 }
 
-/************ OM SEKTION ************/
+/************ HJEM SEKTION ************/
 
 .hjemtitle {
   background-color: #44505f;
@@ -572,7 +572,7 @@ span.number {
 
 .illusektion {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
   font-family: Roboto;
@@ -585,20 +585,14 @@ span.number {
 }
 
 .illu h3 {
-  font-size: 100px;
-  margin: 0 0 10px 19%;
+  display: grid;
+  justify-content: center;
+  margin: 0 0 10% -29%;
   font-size: 18px;
   font-weight: 100;
 }
 
-.illu p {
-  font-size: 14px;
-  margin: 0 0 10px 19%;
-  width: 50%;
-  align-content: center;
-}
-
 .illusektion img {
-  width: 100%;
+  width: 50%;
   margin: 20px 0 0 10%;
 }
