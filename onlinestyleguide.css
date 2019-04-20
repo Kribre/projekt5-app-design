@@ -30,11 +30,11 @@ div h2 {
   /* Dark grey background on mouse-over */
 }
 
-.vertical-menu a.active {
+/* .vertical-menu a.active {
   background-color: #204887;
   /* Add a blue color to the "active/current" link */
-  color: white;
-}
+/* color: white; */
+/* } */
 
 .sidebar {
   height: 100%;
@@ -52,8 +52,8 @@ div h2 {
 
 .main {
   position: absolute;
-  left: 15em;
-  margin-right: 2em;
+  left: 16em;
+  margin-right: 3em;
   padding: 0.8em;
   line-height: 1.5;
   background-color: #44505f;
@@ -65,12 +65,12 @@ body {
 
 /************ OM SEKTION ************/
 
-.omtitle {
+.hjemtitle {
   background-color: #44505f;
   display: grid;
 }
 
-.omtitle h1 {
+.hjemtitle h1 {
   display: grid;
   margin: 25% 0 40% 0;
   font-size: 50px;
@@ -537,14 +537,14 @@ span.number {
 
 /*************** FIGURER SEKTION ****************/
 
-.figurtitle {
+.illutitle {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #003230;
   font-family: Roboto;
 }
 
-.figurtitle h2 {
+.illutitle h2 {
   margin: 0 0 10px 9%;
   font-size: 30px;
   color: #ffffff;
@@ -553,24 +553,24 @@ span.number {
   margin-top: 9%;
 }
 
-.figurundertitle {
+.illuundertitle {
   background-color: #003230;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.figurundertitle p {
+.illuundertitle p {
   margin: 0 0 10px 18.7%;
   width: 50%;
   color: #ffffff;
 }
 
-.figurundertitle img {
+.illuundertitle img {
   width: 50%;
   margin: -5% 0 20% 18%;
 }
 
-.figursektion {
+.illusektion {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
@@ -579,26 +579,26 @@ span.number {
   margin-bottom: 10%;
 }
 
-.figur {
+.illu {
   font-family: Roboto;
   margin-top: 9%;
 }
 
-.figur h3 {
+.illu h3 {
   font-size: 100px;
   margin: 0 0 10px 19%;
   font-size: 18px;
   font-weight: 100;
 }
 
-.figur p {
+.illu p {
   font-size: 14px;
   margin: 0 0 10px 19%;
   width: 50%;
   align-content: center;
 }
 
-.figursektion img {
+.illusektion img {
   width: 100%;
   margin: 20px 0 0 10%;
 }
