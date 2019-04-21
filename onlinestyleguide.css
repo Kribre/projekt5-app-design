@@ -30,11 +30,11 @@ div h2 {
   /* Dark grey background on mouse-over */
 }
 
-.vertical-menu a.active {
+/* .vertical-menu a.active {
   background-color: #204887;
   /* Add a blue color to the "active/current" link */
-  color: white;
-}
+/* color: white; */
+/* } */
 
 .sidebar {
   height: 100%;
@@ -52,8 +52,8 @@ div h2 {
 
 .main {
   position: absolute;
-  left: 15em;
-  margin-right: 2em;
+  left: 16em;
+  margin-right: 3em;
   padding: 0.8em;
   line-height: 1.5;
   background-color: #44505f;
@@ -63,21 +63,22 @@ body {
   background-color: #44505f;
 }
 
-/************ OM SEKTION ************/
+/************ HJEM SEKTION ************/
 
-.omtitle {
+.hjemtitle {
   background-color: #44505f;
   display: grid;
 }
 
-.omtitle h1 {
+.hjemtitle h1 {
   display: grid;
   margin: 25% 0 40% 0;
   font-size: 50px;
   color: #ffffff;
   font-weight: 100;
-  font-family: Roboto;
+  font-family: sans-serif;
   justify-items: center;
+  text-transform: uppercase;
 }
 
 /************ FARVER SEKTION ************/
@@ -89,7 +90,7 @@ body {
 }
 
 .farvetitle h2 {
-  margin: 3% 0 3% 9%;
+  margin: 3% 0 3% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -106,12 +107,15 @@ body {
   margin: 0 0 10px 18%;
   width: 50%;
   color: #ffffff;
+  font-family: sans-serif;
 }
 
 .farveundertitle img {
   width: 50%;
   margin: -5% 0 20% 18%;
 }
+
+/************ UNDER FARVER SEKTION ************/
 
 .farver {
   display: grid;
@@ -183,7 +187,8 @@ body {
 
 .farver h3 {
   color: #0c0c0c;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: sans-serif;
 }
 
 .farver p {
@@ -201,7 +206,7 @@ body {
 }
 
 .baggrundtitle h2 {
-  margin: 3% 0 3% 9%;
+  margin: 3% 0 3% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -218,12 +223,15 @@ body {
   width: 50%;
   color: #ffffff;
   margin: 0 0 10px 18%;
+  font-family: sans-serif;
 }
 
 .baggrundundertitle img {
   width: 50%;
   margin: -5% 0 20% 18%;
 }
+
+/************* UNDER BAGGRUND SEKTION **************/
 
 .sektionbaggrund {
   display: grid;
@@ -237,6 +245,14 @@ body {
 
 .baggrund2 {
   background-color: #10afa2;
+}
+
+.baggrund3 {
+  background-color: #b3d59c;
+}
+
+.baggrund4 {
+  background-color: #cc722c;
 }
 
 .sektionbaggrund img {
@@ -253,7 +269,7 @@ body {
 }
 
 .ikonertitle h2 {
-  margin: 3% 0 3% 9%;
+  margin: 3% 0 3% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -264,6 +280,7 @@ body {
   background-color: #003230;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: sans-serif;
 }
 
 .ikonerundertitle p {
@@ -277,18 +294,21 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/************* UNDER IKONER SEKTION **************/
+
 .sektionikoner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #ebf4ff;
   margin-bottom: 10%;
+  font-family: sans-serif;
 }
 
 .sektionikoner p {
   display: grid;
   justify-items: center;
-  margin: 0 0 0 -22%;
+  margin: 0 0 10% -22%;
   padding-top: 10px;
 }
 
@@ -297,17 +317,17 @@ body {
   margin: 20px 0 0 28%;
 }
 
-/*************** TYPOGRAFI SEKTION*****************/
+/*************** TYPOGRAFI SEKTION *****************/
 
 .typotitle {
   display: grid;
   grid-template-columns: 1fr;
-  font-family: Roboto;
+  font-family: sans-serif;
   background-color: #204887;
 }
 
 .typotitle h2 {
-  margin: 3% 0 3% 9%;
+  margin: 3% 0 3% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -331,13 +351,27 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/****************** FORÆLDRE SEKTION ***************/
+
+.sectiontitletypo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: #daebff;
+  font-family: sans-serif;
+}
+
+.sectiontitletypo h2 {
+  margin: 5% 0 0px 9.3%;
+  font-weight: 100;
+}
+
 .sectiontypo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   background-color: #daebff;
   font-family: Roboto;
-  margin-bottom: 10%;
 }
 
 .typografi {
@@ -360,44 +394,141 @@ body {
 
 .typografitekst {
   font-family: Roboto;
-  margin-top: 9%;
+  margin-top: 2%;
 }
 
 .typografitekst h2 {
   font-size: 18px;
   color: #44a6c6;
   width: 50%;
-  margin: 0 0 10px 18%;
+  margin: 0 0 10px 19%;
 }
 
 .typografitekst p {
   font-size: 18px;
   width: 50%;
-  margin: 0 0 -2% 18%;
+  margin: 0 0 -2% 19%;
 }
 
-.typoscroll {
-  overflow: scroll;
-  width: 50%;
-  margin: 0 0 5% 19%;
-  width: 200px;
-  height: 100px;
+.typobox {
+  background-color: #003230;
+  width: 70%;
+  margin: 5% 0 15% 19%;
 }
 
-.typoscroll h2 {
+.typobox h2 {
   font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 0.8;
+  padding: 10px 20px 10px 20px;
 }
 
-.typoscroll2 {
-  overflow: scroll;
+span.text {
+  color: #00848e;
+}
+span.number {
+  color: #8a6116;
+}
+
+.xmp {
+  font-family: Roboto;
+  color: #8a6116;
+}
+
+/*************** BØRNE SEKTION *************/
+
+.sectiontitlebørn {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: #10afa2;
+  font-family: Patrick Hand;
+}
+
+.sectiontitlebørn h2 {
+  margin: 5% 0 10px 9.3%;
+  font-weight: 100;
+  color: #0c0c0c;
+}
+
+.sectionbørn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #10afa2;
+  font-family: Patrick Hand;
+  margin-bottom: 10%;
+  color: #ffffff;
+}
+
+.sectionbørnetypo h2 {
+  font-size: 100px;
+  margin: 0 0 10px 19%;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: Patrick Hand;
+}
+
+.typobørnetekst {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.typobørnetekst h2 {
+  font-size: 18px;
   width: 50%;
-  margin: 0 0 5% 19%;
-  width: 200px;
-  height: 100px;
+  margin: 0 0 10px 19%;
+  font-family: Patrick Hand;
+  color: #0c0c0c;
 }
 
-.typoscroll2 h2 {
-  font-size: 14px;
+.typobørnetekst p {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 0 -2% 19%;
+}
+
+.typobørnetekst2 h2 {
+  font-size: 18px;
+  width: 50%;
+  margin: 15px 0 10px 19%;
+  font-family: Patrick Hand;
+  color: #204887;
+}
+
+.typobørnetekst2 p {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 0 -2% 19%;
+}
+
+.typobørnebox {
+  background-color: #003230;
+  width: 70%;
+  margin: 5% 0 15% 19%;
+}
+
+.typobørnebox h2 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 0.8;
+  padding: 10px 20px 10px 20px;
+}
+
+span.text1 {
+  color: #66c2ac;
+  font-family: Patrick Hand;
+}
+span.number1 {
+  color: #ffffff;
+  font-family: Patrick Hand;
+}
+
+.xmp2 {
+  font-family: Patrick Hand;
+  color: #ffffff;
 }
 
 /*************** BELØNNINGS SEKTION *************/
@@ -410,7 +541,7 @@ body {
 }
 
 .belønningtitle h2 {
-  margin: 0 0 10px 9%;
+  margin: 0 0 10px 9.1%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -428,6 +559,7 @@ body {
   margin: 0 0 10px 18.7%;
   width: 50%;
   color: #ffffff;
+  font-family: sans-serif;
 }
 
 .belønningundertitle img {
@@ -435,16 +567,18 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/*************** FOTOOMRÅDE SEKTION ***************/
+
 .sektiontitlebelønning {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
   background-color: #daebff;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .sektiontitlebelønning h2 {
-  margin: 5% 0 10px 9%;
+  margin: 5% 0 10px 9.1%;
   font-weight: 100;
 }
 
@@ -453,7 +587,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .sektionbelønning img {
@@ -461,17 +595,20 @@ body {
   margin: 20px 0 5% 25%;
 }
 
+/*************** BELØNNING & PÅKLÆDNING ************/
+
 .belønninglåstitle {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
   background-color: #66c2ac;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .belønninglåstitle h2 {
-  margin: 5% 0 10px 9%;
+  margin: 5% 0 10px 9.1%;
   font-weight: 100;
+  color: #ffffff;
 }
 
 .belønninglås {
@@ -493,7 +630,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #204887;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .tostitle h2 {
@@ -501,7 +638,6 @@ body {
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
-  font-family: sans-serif;
   margin-top: 9%;
 }
 
@@ -509,6 +645,7 @@ body {
   background-color: #204887;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: sans-serif;
 }
 
 .tosundertitle p {
@@ -522,12 +659,14 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/*************** UNDER TONE OF VOICE ****************/
+
 .sectiontos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
-  font-family: Roboto;
+  font-family: sans-serif;
   margin-bottom: 10%;
 }
 
@@ -537,70 +676,66 @@ body {
   width: 50%;
 }
 
-/*************** FIGURER SEKTION ****************/
+/************ ILLUSTRATIONSSTIL SEKTION **********/
 
-.figurtitle {
+.illutitle {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #003230;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
-.figurtitle h2 {
+.illutitle h2 {
   margin: 0 0 10px 9%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
-  font-family: sans-serif;
   margin-top: 9%;
 }
 
-.figurundertitle {
+.illuundertitle {
   background-color: #003230;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: sans-serif;
 }
 
-.figurundertitle p {
+.illuundertitle p {
   margin: 0 0 10px 18.7%;
   width: 50%;
   color: #ffffff;
 }
 
-.figurundertitle img {
+.illuundertitle img {
   width: 50%;
   margin: -5% 0 20% 18%;
 }
 
-.figursektion {
+/************ UNDER ILLU SEKTION **********/
+
+.illusektion {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
   font-family: Roboto;
   margin-bottom: 10%;
 }
 
-.figur {
+.illu {
   font-family: Roboto;
   margin-top: 9%;
 }
 
-.figur h3 {
-  font-size: 100px;
-  margin: 0 0 10px 19%;
+.illu h3 {
+  display: grid;
+  justify-content: center;
+  margin: 0 0 10% -29%;
   font-size: 18px;
   font-weight: 100;
 }
 
-.figur p {
-  font-size: 14px;
-  margin: 0 0 10px 19%;
+.illusektion img {
   width: 50%;
-  align-content: center;
-}
-
-.figursektion img {
-  width: 100%;
   margin: 20px 0 0 10%;
 }
