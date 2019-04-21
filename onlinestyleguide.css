@@ -114,6 +114,8 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/************ UNDER FARVER SEKTION ************/
+
 .farver {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -226,6 +228,8 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/************* UNDER BAGGRUND SEKTION **************/
+
 .sektionbaggrund {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -238,6 +242,14 @@ body {
 
 .baggrund2 {
   background-color: #10afa2;
+}
+
+.baggrund3 {
+  background-color: #b3d59c;
+}
+
+.baggrund4 {
+  background-color: #cc722c;
 }
 
 .sektionbaggrund img {
@@ -278,6 +290,8 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+/************* UNDER IKONER SEKTION **************/
+
 .sektionikoner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -298,7 +312,7 @@ body {
   margin: 20px 0 0 28%;
 }
 
-/*************** TYPOGRAFI SEKTION*****************/
+/*************** TYPOGRAFI SEKTION *****************/
 
 .typotitle {
   display: grid;
@@ -331,6 +345,8 @@ body {
   width: 50%;
   margin: -5% 0 20% 18%;
 }
+
+/****************** FORÆLDRE SEKTION ***************/
 
 .sectiontitletypo {
   display: grid;
@@ -410,7 +426,7 @@ span.number {
   color: #8a6116;
 }
 
-/*************** TYPOGRAFI BØRNE SEKTION ***********/
+/*************** BØRNE SEKTION *************/
 
 .sectiontitlebørn {
   display: grid;
@@ -423,6 +439,7 @@ span.number {
 .sectiontitlebørn h2 {
   margin: 5% 0 10px 9%;
   font-weight: 100;
+  color: #ffffff;
 }
 
 .sectionbørn {
@@ -430,13 +447,9 @@ span.number {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   background-color: #10afa2;
-  font-family: Roboto;
-  margin-bottom: 10%;
-}
-
-.sectionbørnetypo {
   font-family: Patrick Hand;
-  margin-top: 9%;
+  margin-bottom: 10%;
+  color: #ffffff;
 }
 
 .sectionbørnetypo h2 {
@@ -444,28 +457,23 @@ span.number {
   margin: 0 0 10px 19%;
   font-size: 18px;
   font-weight: 100;
-}
-
-.sectionbørnetypo p {
-  font-size: 14px;
-  margin: 0 0 10px 19%;
-  width: 50%;
+  font-family: Patrick Hand;
 }
 
 .typobørnetekst {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .typobørnetekst h2 {
   font-size: 18px;
-  color: #44a6c6;
   width: 50%;
   margin: 0 0 10px 19%;
   font-family: Patrick Hand;
 }
 
 .typobørnetekst p {
-  font-size: 18px;
+  font-size: 16px;
   width: 50%;
   margin: 0 0 -2% 19%;
 }
@@ -477,7 +485,7 @@ span.number {
 }
 
 .typobørnebox h2 {
-  font-size: 14px;
+  font-size: 18px;
   color: #ffffff;
   font-weight: 100;
   line-height: 0.8;
@@ -526,12 +534,14 @@ span.number {
   margin: -5% 0 20% 18%;
 }
 
+/*************** FOTOOMRÅDE SEKTION ***************/
+
 .sektiontitlebelønning {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
   background-color: #daebff;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .sektiontitlebelønning h2 {
@@ -544,7 +554,7 @@ span.number {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .sektionbelønning img {
@@ -552,17 +562,20 @@ span.number {
   margin: 20px 0 5% 25%;
 }
 
+/*************** BELØNNING & PÅKLÆDNING ************/
+
 .belønninglåstitle {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
   background-color: #66c2ac;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .belønninglåstitle h2 {
   margin: 5% 0 10px 9%;
   font-weight: 100;
+  color: #ffffff;
 }
 
 .belønninglås {
@@ -613,6 +626,8 @@ span.number {
   margin: -5% 0 20% 18%;
 }
 
+/*************** UNDER TONE OF VOICE ****************/
+
 .sectiontos {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -628,7 +643,7 @@ span.number {
   width: 50%;
 }
 
-/*************** FIGURER SEKTION ****************/
+/************ ILLUSTRATIONSSTIL SEKTION **********/
 
 .illutitle {
   display: grid;
@@ -662,6 +677,8 @@ span.number {
   width: 50%;
   margin: -5% 0 20% 18%;
 }
+
+/************ UNDER ILLU SEKTION **********/
 
 .illusektion {
   display: grid;
