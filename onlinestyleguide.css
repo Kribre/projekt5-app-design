@@ -426,6 +426,11 @@ span.number {
   color: #8a6116;
 }
 
+.xmp {
+  font-family: Roboto;
+  color: #8a6116;
+}
+
 /*************** BØRNE SEKTION *************/
 
 .sectiontitlebørn {
@@ -439,7 +444,7 @@ span.number {
 .sectiontitlebørn h2 {
   margin: 5% 0 10px 9%;
   font-weight: 100;
-  color: #ffffff;
+  color: #0c0c0c;
 }
 
 .sectionbørn {
@@ -470,9 +475,24 @@ span.number {
   width: 50%;
   margin: 0 0 10px 19%;
   font-family: Patrick Hand;
+  color: #0c0c0c;
 }
 
 .typobørnetekst p {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 0 -2% 19%;
+}
+
+.typobørnetekst2 h2 {
+  font-size: 18px;
+  width: 50%;
+  margin: 15px 0 10px 19%;
+  font-family: Patrick Hand;
+  color: #204887;
+}
+
+.typobørnetekst2 p {
   font-size: 16px;
   width: 50%;
   margin: 0 0 -2% 19%;
@@ -492,11 +512,18 @@ span.number {
   padding: 10px 20px 10px 20px;
 }
 
-span.text {
-  color: #00848e;
+span.text1 {
+  color: #66c2ac;
+  font-family: Patrick Hand;
 }
-span.number {
-  color: #8a6116;
+span.number1 {
+  color: #ffffff;
+  font-family: Patrick Hand;
+}
+
+.xmp2 {
+  font-family: Patrick Hand;
+  color: #ffffff;
 }
 
 /*************** BELØNNINGS SEKTION *************/
