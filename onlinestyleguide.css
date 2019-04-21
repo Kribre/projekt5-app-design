@@ -332,13 +332,25 @@ body {
   margin: -5% 0 20% 18%;
 }
 
+.sectiontitletypo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: #daebff;
+  font-family: Roboto;
+}
+
+.sectiontitletypo h2 {
+  margin: 5% 0 10px 9%;
+  font-weight: 100;
+}
+
 .sectiontypo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   background-color: #daebff;
   font-family: Roboto;
-  margin-bottom: 10%;
 }
 
 .typografi {
@@ -377,13 +389,94 @@ body {
   margin: 0 0 -2% 19%;
 }
 
-.typoscroll {
+.typobox {
   background-color: #003230;
   width: 70%;
   margin: 5% 0 15% 19%;
 }
 
-.typoscroll h2 {
+.typobox h2 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 0.8;
+  padding: 10px 20px 10px 20px;
+}
+
+span.text {
+  color: #00848e;
+}
+span.number {
+  color: #8a6116;
+}
+
+/*************** TYPOGRAFI BØRNE SEKTION ***********/
+
+.sectiontitlebørn {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: #10afa2;
+  font-family: Patrick Hand;
+}
+
+.sectiontitlebørn h2 {
+  margin: 5% 0 10px 9%;
+  font-weight: 100;
+}
+
+.sectionbørn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #10afa2;
+  font-family: Roboto;
+  margin-bottom: 10%;
+}
+
+.sectionbørnetypo {
+  font-family: Patrick Hand;
+  margin-top: 9%;
+}
+
+.sectionbørnetypo h2 {
+  font-size: 100px;
+  margin: 0 0 10px 19%;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.sectionbørnetypo p {
+  font-size: 14px;
+  margin: 0 0 10px 19%;
+  width: 50%;
+}
+
+.typobørnetekst {
+  margin-top: 2%;
+}
+
+.typobørnetekst h2 {
+  font-size: 18px;
+  color: #44a6c6;
+  width: 50%;
+  margin: 0 0 10px 19%;
+  font-family: Patrick Hand;
+}
+
+.typobørnetekst p {
+  font-size: 18px;
+  width: 50%;
+  margin: 0 0 -2% 19%;
+}
+
+.typobørnebox {
+  background-color: #003230;
+  width: 70%;
+  margin: 5% 0 15% 19%;
+}
+
+.typobørnebox h2 {
   font-size: 14px;
   color: #ffffff;
   font-weight: 100;
