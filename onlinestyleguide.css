@@ -574,7 +574,7 @@ span.number1 {
 }
 
 /*************** FOTOOMRÅDE SEKTION ***************/
-
+/* 
 .sektiontitlebelønning {
   display: grid;
   grid-template-columns: 1fr;
@@ -599,7 +599,7 @@ span.number1 {
 .sektionbelønning img {
   width: 50%;
   margin: 20px 0 5% 25%;
-}
+} */
 
 /******************* BELØNNING **********************/
 
@@ -607,26 +607,26 @@ span.number1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  background-color: #66c2ac;
+  background-color: #daebff;
   font-family: sans-serif;
 }
 
 .undertitlebeløn h2 {
   margin: 5% 0 10px 18.2%;
   font-weight: 100;
-  color: #ffffff;
+  color: #0c0c0c;
 }
 
 .undertitlebeløn2 h2 {
   margin: 5% 0 10px 16.2%;
   font-weight: 100;
-  color: #ffffff;
+  color: #0c0c0c;
 }
 
 .belønningstjerneskærm {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #66c2ac;
+  background-color: #daebff;
 }
 
 .belønningstjerneskærm img {
@@ -638,20 +638,20 @@ span.number1 {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  background-color: #66c2ac;
+  background-color: #daebff;
   font-family: sans-serif;
 }
 
 .elementertitle h2 {
   margin: 5% 0 10px 9.1%;
   font-weight: 100;
-  color: #ffffff;
+  color: #0c0c0c;
 }
 
 .belønninglås {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #66c2ac;
+  background-color: #daebff;
   margin-bottom: 10%;
 }
 
@@ -682,6 +682,7 @@ span.number1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
+  margin-bottom: 10%;
 }
 
 .tosundertitle p {
