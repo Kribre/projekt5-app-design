@@ -601,9 +601,34 @@ span.number1 {
   margin: 20px 0 5% 25%;
 }
 
-/*************** BELØNNING & PÅKLÆDNING ************/
+/******************* BELØNNING **********************/
 
 .belønninglåstitle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #66c2ac;
+  font-family: sans-serif;
+}
+
+.belønningstjerneskærm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #66c2ac;
+}
+
+.belønningstjerneskærm img {
+  width: 70%;
+  margin: 20px 0 0 18.2%;
+}
+
+.belønninglåstitle h2 {
+  margin: 5% 0 10px 18.2%;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.elementertitle {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
@@ -611,7 +636,7 @@ span.number1 {
   font-family: sans-serif;
 }
 
-.belønninglåstitle h2 {
+.elementertitle h2 {
   margin: 5% 0 10px 9.1%;
   font-weight: 100;
   color: #ffffff;
@@ -621,7 +646,6 @@ span.number1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #66c2ac;
-  font-family: Roboto;
   margin-bottom: 10%;
 }
 
