@@ -151,4 +151,28 @@
       body.single-toggle .drop:nth-child(10) {
       display: block;
       }
+.backArrow {
+	z-index: 1000;
+position:absolute;
+	height: 15vh;
+	top: 1vh;
+	left:1vh;
+}
+.backArrow:hover {
+	cursor: pointer;
+}
+.topRightNavn {
+	text-align: right;
+	z-index: 1000;
+	position:absolute;
+	top:3vh;
+	right:0vh;
+}
+.rewardIcon {
+	cursor: pointer;
+	height: 12vh;
+	margin-right: 2vh;
+	display:inline-block
+}
+	
       
