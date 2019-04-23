@@ -174,5 +174,16 @@ position:absolute;
 	margin-right: 2vh;
 	display:inline-block
 }
-	
+.termoMetoooo {
+	position:absolute;
+	height: 15vh;
+	right:4.8vh;
+	top: 33.5vh;
+}
+.termoBox {
+	position:absolute;
+	height: 8vh;
+	right:3.5vh;
+	top: 49.5vh;
+}
       
