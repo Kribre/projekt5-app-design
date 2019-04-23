@@ -682,7 +682,6 @@ span.number1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
-  margin-bottom: 10%;
 }
 
 .tosundertitle p {
@@ -697,6 +696,13 @@ span.number1 {
 }
 
 /*************** UNDER TONE OF VOICE ****************/
+
+.tosmaintitle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #003230;
+  font-family: sans-serif;
+}
 
 .sectiontos {
   display: grid;
@@ -750,28 +756,16 @@ span.number1 {
 
 /************ UNDER ILLU SEKTION **********/
 
-.illusektion {
+.illubillede {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   background-color: #daebff;
   font-family: sans-serif;
   margin-bottom: 10%;
 }
 
-.illu {
-  margin-top: 9%;
-}
-
-.illu h3 {
-  display: grid;
-  justify-content: center;
-  margin: 0 0 10% -29%;
-  font-size: 18px;
-  font-weight: 100;
-}
-
-.illusektion img {
-  width: 50%;
-  margin: 20px 0 0 10%;
+.illubillede img {
+  width: 90%;
+  margin: 5% 0 8% 7%;
 }
