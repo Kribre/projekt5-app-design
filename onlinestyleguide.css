@@ -85,7 +85,7 @@ body {
 }
 
 .farvetitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -200,7 +200,7 @@ body {
 }
 
 .baggrundtitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -271,7 +271,7 @@ body {
 }
 
 .ikonertitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 1% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -334,10 +334,11 @@ body {
 }
 
 .typotitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
+  font-family: sans-serif;
 }
 
 .typoundertitle {
@@ -369,8 +370,11 @@ body {
 }
 
 .sectiontitletypo h2 {
-  margin: 5% 0 0 9.3%;
+  margin: 3% 0 3% 8.8%;
+  font-size: 30px;
+  color: #0c0c0c;
   font-weight: 100;
+  font-family: sans-serif;
 }
 
 .sectiontypo {
@@ -543,15 +547,14 @@ span.number1 {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #003230;
-  font-family: Roboto;
+  font-family: sans-serif;
 }
 
 .belønningtitle h2 {
-  margin: 0 0 10px 9.1%;
+  margin: 0 0 2% 9.1%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
-  font-family: sans-serif;
   margin-top: 8%;
 }
 
@@ -572,34 +575,6 @@ span.number1 {
   width: 40%;
   margin: -18% 0 16% 18%;
 }
-
-/*************** FOTOOMRÅDE SEKTION ***************/
-/* 
-.sektiontitlebelønning {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  background-color: #daebff;
-  font-family: sans-serif;
-}
-
-.sektiontitlebelønning h2 {
-  margin: 5% 0 10px 9.1%;
-  font-weight: 100;
-}
-
-.sektionbelønning {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  background-color: #daebff;
-  font-family: sans-serif;
-}
-
-.sektionbelønning img {
-  width: 50%;
-  margin: 20px 0 5% 25%;
-} */
 
 /******************* BELØNNING **********************/
 
@@ -670,7 +645,7 @@ span.number1 {
 }
 
 .tostitle h2 {
-  margin: 0 0 10px 9%;
+  margin: 0 0 2% 9%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -700,8 +675,17 @@ span.number1 {
 .tosmaintitle {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #003230;
+  grid-gap: 20px;
+  background-color: #daebff;
   font-family: sans-serif;
+}
+
+.tosmaintitle h2 {
+  margin: 0 0 3% 18%;
+  font-size: 30px;
+  color: #0c0c0c;
+  font-weight: 100;
+  margin-top: 8%;
 }
 
 .sectiontos {
@@ -714,9 +698,10 @@ span.number1 {
 }
 
 .sectiontos p {
-  font-size: 14px;
-  margin: 9% 0 9% 19%;
-  width: 50%;
+  margin: 5% 0 10% 19%;
+  font-weight: 100;
+  color: #0c0c0c;
+  width: 70%;
 }
 
 /************ ILLUSTRATIONSSTIL SEKTION **********/
@@ -729,7 +714,7 @@ span.number1 {
 }
 
 .illutitle h2 {
-  margin: 0 0 10px 9%;
+  margin: 0 0 2% 9%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
