@@ -67,13 +67,18 @@ body {
 
 .hjemtitle h1 {
   display: grid;
-  margin: 25% 0 40% 0;
+  margin: 0% 0 40% 0;
   font-size: 50px;
   color: #ffffff;
   font-weight: 100;
   font-family: arial;
   justify-items: center;
   text-transform: uppercase;
+}
+
+.hjemtitle img {
+  width: 40%;
+  margin: 25% 0 0 30.5%;
 }
 
 /************ FARVER SEKTION ************/
@@ -85,7 +90,7 @@ body {
 }
 
 .farvetitle h2 {
-  margin: 3% 0 2% 8.8%;
+  margin: 6% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -204,6 +209,7 @@ body {
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
+  margin-top: 5%;
 }
 
 .baggrundundertitle {
@@ -220,8 +226,8 @@ body {
 }
 
 .baggrundundertitle img {
-  width: 40%;
-  margin: -17% 0 10% 18%;
+  width: 60%;
+  margin: -13% 0 10% 15%;
 }
 
 /************* UNDER BAGGRUND SEKTION **************/
@@ -312,10 +318,14 @@ body {
   font-family: sans-serif;
 }
 
+.ikoner {
+  margin-top: 10%;
+}
+
 .sektionikoner p {
   display: grid;
   justify-items: center;
-  margin: 0 0 10% -22%;
+  margin: 10px 0 10% -22%;
   padding-top: 10px;
 }
 
@@ -496,7 +506,7 @@ span.number {
 .typobørnetekst p {
   font-size: 16px;
   width: 50%;
-  margin: 0 0 -2% 19%;
+  margin: 3% 0 -2% 19%;
 }
 
 .typobørnetekst2 h2 {
@@ -677,15 +687,22 @@ span.number1 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   background-color: #daebff;
-  font-family: sans-serif;
 }
 
-.tosmaintitle h2 {
-  margin: 0 0 3% 18%;
-  font-size: 30px;
+.voksentos h2 {
+  margin: 0 0 1% 19%;
   color: #0c0c0c;
   font-weight: 100;
   margin-top: 8%;
+  font-family: "Roboto", sans-serif;
+}
+
+.børnetos h2 {
+  margin: 0 0 1% 19%;
+  color: #0c0c0c;
+  font-weight: 100;
+  margin-top: 8%;
+  font-family: "Patrick Hand";
 }
 
 .sectiontos {
@@ -698,10 +715,21 @@ span.number1 {
 }
 
 .sectiontos p {
-  margin: 5% 0 10% 19%;
   font-weight: 100;
   color: #0c0c0c;
   width: 70%;
+}
+
+.tos p {
+  font-family: "Roboto", sans-serif;
+  margin: 5% 0 10% 20%;
+  font-size: 16px;
+}
+
+.tos2 p {
+  font-family: "Patrick Hand";
+  margin: 4% 0 16% 20%;
+  font-size: 18px;
 }
 
 /************ ILLUSTRATIONSSTIL SEKTION **********/
