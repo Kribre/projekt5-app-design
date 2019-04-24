@@ -51,17 +51,17 @@ html {
   margin-right: 3em;
   padding: 0.8em;
   line-height: 1.5;
-  background-color: #44505f;
+  background-color: #e1d4cd;
 }
 
 body {
-  background-color: #44505f;
+  background-color: #e1d4cd;
 }
 
 /************ HJEM SEKTION ************/
 
 .hjemtitle {
-  background-color: #44505f;
+  background-color: #e1d4cd;
   display: grid;
 }
 
@@ -84,7 +84,7 @@ body {
 /************ FARVER SEKTION ************/
 
 .farvetitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .farveundertitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -198,7 +198,7 @@ body {
 /***************** BAGGRUND SEKTION **************/
 
 .baggrundtitle {
-  background-color: #204887;
+  background-color: #426178;
   display: grid;
   grid-template-columns: 1fr;
   font-family: sans-serif;
@@ -213,7 +213,7 @@ body {
 }
 
 .baggrundundertitle {
-  background-color: #204887;
+  background-color: #426178;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -239,27 +239,27 @@ body {
 }
 
 .baggrund1 {
-  background-color: #f1c95e;
+  background-color: #8c9973;
 }
 
 .baggrund2 {
-  background-color: #10afa2;
+  background-color: #c6d5e0;
 }
 
 .baggrund3 {
-  background-color: #10afa2;
+  background-color: #c6d5e0;
 }
 
 .baggrund4 {
-  background-color: #f1c95e;
+  background-color: #8c9973;
 }
 
 .baggrund5 {
-  background-color: #f1c95e;
+  background-color: #8c9973;
 }
 
 .baggrund6 {
-  background-color: #10afa2;
+  background-color: #c6d5e0;
 }
 
 .sektionbaggrund img {
@@ -270,7 +270,7 @@ body {
 /***************** IKONER SEKTION **************/
 
 .ikonertitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr;
   font-family: sans-serif;
@@ -284,7 +284,7 @@ body {
 }
 
 .ikonerundertitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -340,7 +340,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   font-family: sans-serif;
-  background-color: #204887;
+  background-color: #426078;
 }
 
 .typotitle h2 {
@@ -352,7 +352,7 @@ body {
 }
 
 .typoundertitle {
-  background-color: #204887;
+  background-color: #426078;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -556,7 +556,7 @@ span.number1 {
 .belønningtitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #003230;
+  background-color: #8c9873;
   font-family: sans-serif;
 }
 
@@ -569,7 +569,7 @@ span.number1 {
 }
 
 .belønningundertitle {
-  background-color: #003230;
+  background-color: #8c9873;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -650,7 +650,7 @@ span.number1 {
 .tostitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #204887;
+  background-color: #425f78;
   font-family: sans-serif;
 }
 
@@ -663,7 +663,7 @@ span.number1 {
 }
 
 .tosundertitle {
-  background-color: #204887;
+  background-color: #425f78;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -737,7 +737,7 @@ span.number1 {
 .illutitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #003230;
+  background-color: #8c9773;
   font-family: sans-serif;
 }
 
@@ -750,7 +750,7 @@ span.number1 {
 }
 
 .illuundertitle {
-  background-color: #003230;
+  background-color: #8c9773;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
