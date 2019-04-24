@@ -309,6 +309,12 @@ body {
 
 /************* UNDER IKONER SEKTION **************/
 
+.xmp3 {
+  display: grid;
+  text-align: center;
+  background-color: #ebf4ff;
+}
+
 .sektionikoner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -320,6 +326,22 @@ body {
 
 .ikoner {
   margin-top: 10%;
+}
+
+.ikoner1 img {
+  padding-top: 36px;
+}
+
+.ikoner2 img {
+  padding-top: 28px;
+}
+
+.ikoner3 img {
+  padding-top: 30px;
+}
+
+.ikoner4 img {
+  padding-top: 30px;
 }
 
 .sektionikoner p {
