@@ -1,59 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Standard</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.core.min.js"></script>
-	
-  </head>
-  <body class="back-row-toggle splat-toggle" onResize="barSize();">
-    <div style="display: inline-block;margin:auto;position: absolute;">
-      <img id="baggrund" src="img/backgrounds/background_landscape.jpg" />
-      <div id="rain1" class="rain front-row"></div>
-      <div id="rain2" class="rain back-row"></div>
-      <img
-        id="startKnap"
-        onClick="alert('HEJ!!!');"
-        src="img/system_icons/icon_welcome_play.svg"
-      />
-      <img
-        onClick="parrrrrrrentScreen();"
-        src="img/system_icons/icon_info-63.svg"
-        id="infoKnap"
-		style="transition: all 0.5s;"
-      />
-      <div id="parrentScreen" class="parrentPanel" style="display:none;opacity: 0;transition: opacity 2s;"><div style="text-align: center;">
-	  <div style="display:block;">
-    <h2 id="statusFelt">Koden Er:</h2>
-    <h1 id="kode"></h1>
+<head>
+<meta charset="utf-8">
+<title>Landing Page</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin:0px;
+			padding: 0px;
+		}
+		body {
+			overflow: hidden;
+			background: url("img/landingPage/Artboard 5-100.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		}
+		.backgroundImg {
+			position: absolute;
+			top:0px;
+		}
+		.shareBoxes {
+			width:49%;
+			display:inline-block;
+			text-align: right;
+		}
+		.logo {
+			display: inline-block;
+			width:60%;
+			margin-top:15vh;
+		}
+		.buttons {
+			width:30%;
+			padding: 3%;
+			cursor: pointer;
+		}
+		.girl {
+			position:absolute;
+			right:15vw;
+			margin-top: 5vh;
+			height: 120vh;
+		}
+		.TextBox {
+			position:absolute;
+			width:50vw;
+			left: 20vw;
+		}
+	</style>
+</head>
+
+<body>
+	<img src="img/landingPage/Artboard 3.svg" class="backgroundImg">
+	<div style="position:absolute; width: 100%;height: 100%;">
+	<div class="TextBox">
+		<img src="img/landingPage/Artboard 6.svg" class="logo">
+		<div><img src="img/landingPage/Artboard 7.svg" class="buttons" onClick="window.location.href = 'prototypeArea/index.html'"><img src="img/landingPage/Artboard 8.svg" class="buttons" onClick="window.location.href = 'onlinestyleguide.html'"></div>
 	</div>
-	<br><br>
 	
-    <div class="inputs" id="theInputs">
-      <a id="input1" class="input">1</a>
-      <a id="input2" class="input">1</a>
-      <a id="input3" class="input">1</a>
-      <a id="input4" class="input">1</a>
-      
-    </div>
-		  </div>
-    <br><br>
-    <div class="buttons">
-  <div class="button" onClick="input(1);">1</div>
-  <div class="button" onClick="input(2);">2</div>
-  <div class="button" onClick="input(3);">3</div>
-  <div class="button" onClick="input(4);">4</div>
-  <div class="button" onClick="input(5);">5</div>
-  <div class="button" onClick="input(6);">6</div>
-  <div class="button" onClick="input(7);">7</div>
-  <div class="button" onClick="input(8);">8</div>
-  <div class="button" onClick="input(9);">9</div>
-  <div class="button" onClick="deleteOneArray()">&larr;</div>
-</div></div>
-    </div>
-  </body>
-  <script src="js/main.js"></script>
-  <script src="js/parentLock.js"></script>
+	<img src="img/landingPage/Artboard 2.png" class="girl">
+	</div>
+</body>
 </html>

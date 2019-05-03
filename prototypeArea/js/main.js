@@ -1,4 +1,12 @@
 var makeItRain = function() {
+	
+	var sound = new Howl({
+  src: ['rain.mp3'],
+  autoplay: true,
+  loop: true,
+  volume: 0.1,
+});
+	
        //clear out everything
        $('.rain').empty();
       

@@ -51,23 +51,23 @@ html {
   margin-right: 3em;
   padding: 0.8em;
   line-height: 1.5;
-  background-color: #44505f;
+  background-color: #e1d4cd;
 }
 
 body {
-  background-color: #44505f;
+  background-color: #e1d4cd;
 }
 
 /************ HJEM SEKTION ************/
 
 .hjemtitle {
-  background-color: #44505f;
+  background-color: #e1d4cd;
   display: grid;
 }
 
 .hjemtitle h1 {
   display: grid;
-  margin: 25% 0 40% 0;
+  margin: 0% 0 40% 0;
   font-size: 50px;
   color: #ffffff;
   font-weight: 100;
@@ -76,16 +76,21 @@ body {
   text-transform: uppercase;
 }
 
+.hjemtitle img {
+  width: 40%;
+  margin: 25% 0 0 30.5%;
+}
+
 /************ FARVER SEKTION ************/
 
 .farvetitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 .farvetitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 6% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -93,7 +98,7 @@ body {
 }
 
 .farveundertitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -193,21 +198,22 @@ body {
 /***************** BAGGRUND SEKTION **************/
 
 .baggrundtitle {
-  background-color: #204887;
+  background-color: #426178;
   display: grid;
   grid-template-columns: 1fr;
   font-family: sans-serif;
 }
 
 .baggrundtitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
+  margin-top: 5%;
 }
 
 .baggrundundertitle {
-  background-color: #204887;
+  background-color: #426178;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -220,8 +226,8 @@ body {
 }
 
 .baggrundundertitle img {
-  width: 40%;
-  margin: -17% 0 10% 18%;
+  width: 60%;
+  margin: -13% 0 10% 15%;
 }
 
 /************* UNDER BAGGRUND SEKTION **************/
@@ -233,27 +239,27 @@ body {
 }
 
 .baggrund1 {
-  background-color: #f1c95e;
+  background-color: #8c9973;
 }
 
 .baggrund2 {
-  background-color: #10afa2;
+  background-color: #c6d5e0;
 }
 
 .baggrund3 {
-  background-color: #10afa2;
+  background-color: #c6d5e0;
 }
 
 .baggrund4 {
-  background-color: #f1c95e;
+  background-color: #8c9973;
 }
 
 .baggrund5 {
-  background-color: #f1c95e;
+  background-color: #8c9973;
 }
 
 .baggrund6 {
-  background-color: #10afa2;
+  background-color: #c6d5e0;
 }
 
 .sektionbaggrund img {
@@ -264,21 +270,21 @@ body {
 /***************** IKONER SEKTION **************/
 
 .ikonertitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr;
   font-family: sans-serif;
 }
 
 .ikonertitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 1% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
 }
 
 .ikonerundertitle {
-  background-color: #003230;
+  background-color: #8c9973;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -303,6 +309,12 @@ body {
 
 /************* UNDER IKONER SEKTION **************/
 
+.xmp3 {
+  display: grid;
+  text-align: center;
+  background-color: #ebf4ff;
+}
+
 .sektionikoner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -312,10 +324,30 @@ body {
   font-family: sans-serif;
 }
 
+.ikoner {
+  margin-top: 10%;
+}
+
+.ikoner1 img {
+  padding-top: 36px;
+}
+
+.ikoner2 img {
+  padding-top: 28px;
+}
+
+.ikoner3 img {
+  padding-top: 30px;
+}
+
+.ikoner4 img {
+  padding-top: 30px;
+}
+
 .sektionikoner p {
   display: grid;
   justify-items: center;
-  margin: 0 0 10% -22%;
+  margin: 10px 0 10% -22%;
   padding-top: 10px;
 }
 
@@ -330,18 +362,19 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   font-family: sans-serif;
-  background-color: #204887;
+  background-color: #426078;
 }
 
 .typotitle h2 {
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 2% 8.8%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
+  font-family: sans-serif;
 }
 
 .typoundertitle {
-  background-color: #204887;
+  background-color: #426078;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -369,8 +402,11 @@ body {
 }
 
 .sectiontitletypo h2 {
-  margin: 5% 0 0 9.3%;
+  margin: 3% 0 3% 8.8%;
+  font-size: 30px;
+  color: #0c0c0c;
   font-weight: 100;
+  font-family: sans-serif;
 }
 
 .sectiontypo {
@@ -492,7 +528,7 @@ span.number {
 .typobørnetekst p {
   font-size: 16px;
   width: 50%;
-  margin: 0 0 -2% 19%;
+  margin: 3% 0 -2% 19%;
 }
 
 .typobørnetekst2 h2 {
@@ -542,21 +578,20 @@ span.number1 {
 .belønningtitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #003230;
-  font-family: Roboto;
+  background-color: #8c9873;
+  font-family: sans-serif;
 }
 
 .belønningtitle h2 {
-  margin: 0 0 10px 9.1%;
+  margin: 0 0 2% 9.1%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
-  font-family: sans-serif;
   margin-top: 8%;
 }
 
 .belønningundertitle {
-  background-color: #003230;
+  background-color: #8c9873;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -572,34 +607,6 @@ span.number1 {
   width: 40%;
   margin: -18% 0 16% 18%;
 }
-
-/*************** FOTOOMRÅDE SEKTION ***************/
-/* 
-.sektiontitlebelønning {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  background-color: #daebff;
-  font-family: sans-serif;
-}
-
-.sektiontitlebelønning h2 {
-  margin: 5% 0 10px 9.1%;
-  font-weight: 100;
-}
-
-.sektionbelønning {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  background-color: #daebff;
-  font-family: sans-serif;
-}
-
-.sektionbelønning img {
-  width: 50%;
-  margin: 20px 0 5% 25%;
-} */
 
 /******************* BELØNNING **********************/
 
@@ -665,12 +672,12 @@ span.number1 {
 .tostitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #204887;
+  background-color: #425f78;
   font-family: sans-serif;
 }
 
 .tostitle h2 {
-  margin: 0 0 10px 9%;
+  margin: 0 0 2% 9%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -678,7 +685,7 @@ span.number1 {
 }
 
 .tosundertitle {
-  background-color: #204887;
+  background-color: #425f78;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
@@ -691,8 +698,8 @@ span.number1 {
 }
 
 .tosundertitle img {
-  width: 50%;
-  margin: -5% 0 16% 18%;
+  width: 75%;
+  margin: 0% 0 15% 19%;
 }
 
 /*************** UNDER TONE OF VOICE ****************/
@@ -700,8 +707,24 @@ span.number1 {
 .tosmaintitle {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #003230;
-  font-family: sans-serif;
+  grid-gap: 20px;
+  background-color: #daebff;
+}
+
+.voksentos h2 {
+  margin: 0 0 1% 19%;
+  color: #0c0c0c;
+  font-weight: 100;
+  margin-top: 8%;
+  font-family: "Roboto", sans-serif;
+}
+
+.børnetos h2 {
+  margin: 0 0 1% 19%;
+  color: #0c0c0c;
+  font-weight: 100;
+  margin-top: 8%;
+  font-family: "Patrick Hand";
 }
 
 .sectiontos {
@@ -714,9 +737,21 @@ span.number1 {
 }
 
 .sectiontos p {
-  font-size: 14px;
-  margin: 9% 0 9% 19%;
-  width: 50%;
+  font-weight: 100;
+  color: #0c0c0c;
+  width: 70%;
+}
+
+.tos p {
+  font-family: "Roboto", sans-serif;
+  margin: 5% 0 10% 20%;
+  font-size: 16px;
+}
+
+.tos2 p {
+  font-family: "Patrick Hand";
+  margin: 4% 0 16% 20%;
+  font-size: 18px;
 }
 
 /************ ILLUSTRATIONSSTIL SEKTION **********/
@@ -724,12 +759,12 @@ span.number1 {
 .illutitle {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #003230;
+  background-color: #8c9773;
   font-family: sans-serif;
 }
 
 .illutitle h2 {
-  margin: 0 0 10px 9%;
+  margin: 0 0 2% 9%;
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
@@ -737,7 +772,7 @@ span.number1 {
 }
 
 .illuundertitle {
-  background-color: #003230;
+  background-color: #8c9773;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
